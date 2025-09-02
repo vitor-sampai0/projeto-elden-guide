@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 
 export const metadata = {
-    title: "Elden Guide",
+    title: "Elden Guide - Bosses",
     description: "Projeto pra mostrar tudo que eu sei",
     icons: {
         icon: "/icons/favicon.ico",
