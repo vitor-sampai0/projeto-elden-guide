@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
     return (
@@ -6,8 +7,8 @@ const Header = () => {
             <div className="container mx-auto px-4 py-6">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4 gap-4">
-                        <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center">
-                            <span className="text-2xl font-bold">EG</span>
+                        <div className="w-13 h-13 bg-yellow-600 rounded-full flex items-center justify-center">
+                            <Image src="/favicon.ico" alt="Elden Guide Logo" width={48} height={48} />
                         </div>
                         <div>
                             <h1 className="text-3xl font-bold text-yellow-400">Elden Guide</h1>
