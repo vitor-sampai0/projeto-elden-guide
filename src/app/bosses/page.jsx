@@ -108,10 +108,9 @@ export default function BossesPage() {
     <div className={styles.container}>
       <h1 className={styles.title}>Lista de Bosses</h1>
       
-      {/* Indicador da fonte dos dados e controles */}
       <div className={styles.dataControls}>
         <div className={styles.dataSource}>
-          <span>Fonte dos dados: {dataSource}</span>
+          <span>Fonte dos dados: <button   className={styles.linkBtn} ><Link href="https://eldenring.fanapis.com/" target="_blank">API</Link></button></span>
         </div>
         <div className={styles.actionButtons}>
           <button 
