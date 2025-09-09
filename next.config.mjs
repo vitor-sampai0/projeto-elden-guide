@@ -8,6 +8,10 @@ const nextConfig = {
         port: '',
         pathname: '/images/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'fv5-4.files.fm',
+      },
     ],
   },
 };
